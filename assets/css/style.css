@@ -34,6 +34,7 @@ h3 {
     opacity: 0.3;
     background-size: cover;
     background-position: top;
+    z-index: -1;
 }
 
 .brandlogo {
