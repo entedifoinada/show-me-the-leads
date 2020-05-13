@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="icon" type="image/png" href="./assets/img/favicon_branco.png"> -->
+  <link rel="icon" type="image/png" href="./assets/img/favicon_fundo_branco.png">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -13,16 +16,13 @@
 
 <body>
 
-  <div class="back-container">
-    <!-- <img class="back-img" src="./assets/img/back.svg" alt=""> -->
-  </div>
+  <div class="back-container"></div>
 
-  
   <div class="container">
 
     <header>
       <nav class="navbar text-white mt-3 p-0">
-        <span class="navbar-brand mb-0 h1"><img class="brandlogo" src="./assets/img/logo-best-chat.png"
+        <span class="navbar-brand mb-0 h1"><img class="brandlogo" src="./assets/img/logo_branco.png"
             alt="Logo best chat"></span>
       </nav>
     </header>
@@ -52,14 +52,14 @@
           <span>pouquinho de você...</span>
         </h2>
 
-        <form method="POST" action="#">
+        <form method="POST" action="https://smtl.gama.academy/leads/db22dd72-915e-11ea-9e98-2f3c29e0891c">
           <div class="form-group">
 
             <input class="form-control mb-3" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$"
               title="Digite seu nome completo" placeholder="Nome" required />
             <input class="form-control" name="email" type="email" title="Digite um email válido" placeholder="E-mail"
               required />
-            <input class="form-control" name="redirectTo" type="hidden" value="https://gama.academy" />
+            <input class="form-control" name="redirectTo" type="hidden" value="http://best-chat.netlify.com/success" />
             <input class="form-control" name="debugMode" type="hidden" value="true" />
           </div>
           <input class="btn cta-test mt-4" type="submit" value="EU QUERO O TESTE" />
@@ -67,8 +67,6 @@
 
       </div>
     </div>
-
-    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -88,6 +86,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>
+
 </body>
 
 </html>
