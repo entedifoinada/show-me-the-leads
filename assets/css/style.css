@@ -82,3 +82,18 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
     }
 
 }
+
+#michelangelo{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(119, 240, 114) , rgb(13, 100, 49));
+}
+
+#michelangelo1{
+    text-align: center;
+}
+
+.michelangelo2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
