@@ -1,4 +1,4 @@
-#primeiracoluna{
+/* #primeiracoluna{
     padding: 20px;
 }
 
@@ -13,4 +13,77 @@
 
 #imgs{
     padding-top: 10%;
+} */
+
+* {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* width: 100vw; */
+    padding: 20px;
+    /* background: #231B7E; */
+    /* background: url(../img/back.svg), linear-gradient( #231B7E #6E5889); */
+    /* background-image: linear-gradient( #231B7E #6E5889); */
+    /* background: url(../img/back.svg); */
+    background-image: linear-gradient(to right, #231B7E, #6E5889);
+    /* background-repeat: no-repeat; */
+    /* background-size: content; */
+}
+
+.brandlogo {
+    height: 75px;
+}
+
+.form-card {
+    background-color: #DFD8F3;
+    border-radius: 40px;
+    padding: 50px 20px;
+}
+
+.cta-test {
+    color: white;
+    border-radius: 20px;
+    background-color: #de5647;
+    padding: 10px 30px;
+}
+
+input[type="text"], input[type="email"] {
+    border-radius: 20px !important;
+    height: 50px !important;
+    background-color: #493c7e !important;
+    color: white !important;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color: #e1ddf2;
+}
+
+.form-title {
+    color: #26089C;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.0rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.0rem;
+}
+
+@media (max-width: 700px) {
+    body {
+        height: max-content;
+    }
 }
