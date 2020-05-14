@@ -48,6 +48,7 @@ form {
 .form-title {
     color: #26089C;
     font-weight: bold;
+    text-align: center;
 }
 
 .form-card {
