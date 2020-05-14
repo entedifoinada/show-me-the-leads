@@ -106,12 +106,13 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
     padding: 10px;
     margin: auto;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .quiz {
     margin: auto;
     text-align: center;
+    max-width: 700px;
 }
 
 .divider{
